@@ -21,6 +21,7 @@ import TheWelcome from './components/TheWelcome.vue'
   background-color: yellow;
   display: flex;
   height: 400px;
+  flex-direction: row-reverse;
 }
 .lila{
   background-color: purple;
@@ -36,5 +37,6 @@ import TheWelcome from './components/TheWelcome.vue'
 }
 .zold{
   background-color: green;
+  width: 30%;
 }
 </style>
